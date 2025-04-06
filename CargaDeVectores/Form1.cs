@@ -21,7 +21,7 @@ namespace CargaDeVectores
             List<string> vector = new List<string>();
 
             vector.Add(txtItem.Text.ToString());
-
+            //
             for (int i = 0; i < vector.Count; i++)
             {
                 lstUno.Items.Add(vector[i]);
